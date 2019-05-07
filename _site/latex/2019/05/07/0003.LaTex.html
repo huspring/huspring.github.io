@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> 
+<script src="https://jerry-cdn.b0.upaiyun.com/hit-kounter/hit-kounter-lc-0.3.0.js"></script>
+<title>琴生不等式</title>
+
+        
+<!-- https://docs.mathjax.org/en/latest/configuration.html#local-config-files -->
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-AMS-MML_HTMLorMML,https://idcrook.github.io/assets/js/MathJaxLocal.js">
+</script>
+
+        <link rel="stylesheet" href="http://localhost:4000/styles/font.css">
+        <link rel="stylesheet" media="screen and (min-width: 600px)" href="http://localhost:4000/styles/post.css">
+        <link rel="stylesheet" media="screen and (max-width: 600px)" href="http://localhost:4000/styles/post_mobile.css">
+        <link rel="stylesheet" media="screen and (min-width: 600px)" href="http://localhost:4000/styles/navigatebar.css">
+        <link rel="stylesheet" media="screen and (max-width: 600px)" href="http://localhost:4000/styles/navigatebar_mobile.css">
+        <link rel="stylesheet" href="http://localhost:4000/theme/highlight.css">
+    </head>
+    <body>
+        <div class="navigatebar">
+    <div class="navigatebar-button navigatebar-mine">
+        <a href="http://localhost:4000/index.html">听雨楼</a>
+    </div>
+    <div class="navigatebar-slogan">
+        「小楼一夜听春雨，深巷明朝卖杏花」
+    </div>
+    <div class="navigatebar-button">
+        <a href="http://localhost:4000/index.html">Home</a>
+    </div>
+    <div class="navigatebar-button">
+        <a href="http://localhost:4000/tags.html">Tags</a>
+    </div>
+
+    <div class="navigatebar-button navigatebar-about">
+        <a href="http://localhost:4000/about.html">About</a>
+    </div>
+</div>
+
+        <div class="content-area">
+            <div class="title">
+                琴生不等式
+            </div>
+            <div class="category-area">
+                「
+                <a href="http://localhost:4000/tags.html#LaTex">
+                    <div class="category">
+                        LaTex
+                    </div>
+                </a>
+                」
+            </div>
+            <div class="char-counter">
+                浏览<span data-hk-page="current"> - </span>次 字数149 2019-05-07
+            </div>
+            <div class="content">
+                <p>琴生不等式 ：对于凸函数[Convex Function,凹曲线] $f(x)$,</p>
+
+<script type="math/tex; mode=display">若 \sum_{i=1}^{n} P_{i}=1 ,则有 \sum_{i=1}^{n} p_{i}f(x_i) \geqslant f(\sum_{i=1}^{n}p_{i}x_{i}) ①</script>
+
+<p>凸函数 [Convex Function,凹曲线] 的性质 ：</p>
+
+<script type="math/tex; mode=display">p_{1}f(x_1)+p_{2}f(x_{2}) \geqslant f(p_{1}x_{1}+p_{2}x_{2}) , 其中 p_{1}+p_{2}=1</script>
+
+<p>数学归纳法证明 ：</p>
+
+<p>(Ⅰ).$ n=1,2$ 时,显然 $①$ 式成立。</p>
+
+<p>(Ⅱ). 假设 $n=k$ 时,$①$ 式成立，即 ：</p>
+
+<script type="math/tex; mode=display">\sum_{i=1}^{k}p_{i}f(x_{i}) \geqslant f(\sum_{i=1}^{k} p_{i}x_{i}) , 其中 \sum_{i=1}^{k}p_{i}=1</script>
+
+<p>则,当 $n=k+1$ 时 ：</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{align*}
+
+设 Z_{k}&=\sum_{i=1}^{k+1}p_{i}-p_{k+1}=\sum_{i=1}^{k} p_{i}\\
+
+\sum_{i=1}^{k+1} p_{i}f(x_{i})&=p_{k+1}f(x_{k+1})+\sum_{i=1}^{k}p_{i}f(x_{i})\\
+
+&=p_{k+1}f(x_{k+1})+Z_{k} \sum_{i=1}^{k} \frac{p_{i}}{Z_{k}}f(x_{i})\\
+
+&\geqslant p_{k+1}f(x_{k+1})+Z_{k}f(\sum_{i=1}^{k}\frac{p_{i}}{Z_{k}}x_{i})\\
+
+&\geqslant f(p_{k+1}x_{k+1}+Z_{k}\sum_{i=1}^{k} \frac{p_{i}}{Z_{k}}x_{i})\\
+
+&=f(p_{k+1}x_{k+1}+\sum_{i=1}^{k} p_{i}x_{i})\\
+
+&=f(\sum_{i=1}^{k+1}p_{i}x_{i})\\
+
+&即 ：\\
+
+\sum_{i=1}^{k+1} p_{i}f(x_i) & \geqslant f(\sum_{i=1}^{k+1}p_{i}x_{i}) ,其中 \sum_{i=1}^{k+1}p_{i}=1\\
+
+&故 n=k+1 时, ① 式成立。\\
+
+\end{align*} %]]></script>
+
+<p>(Ⅲ). 综合 (Ⅰ) , (Ⅱ) 可知 ① 式成立。</p>
+
+
+            </div>
+        </div>
+        <div class="nickname">
+            TingYvLou
+        </div>
+
+    </body>
+</html>

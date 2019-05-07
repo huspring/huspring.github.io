@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-08T00:01:58+08:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">琴生不等式</title><link href="http://localhost:4000/latex/2019/05/07/0001.LaTex.html" rel="alternate" type="text/html" title="琴生不等式" /><published>2019-05-07T00:00:00+08:00</published><updated>2019-05-07T00:00:00+08:00</updated><id>http://localhost:4000/latex/2019/05/07/0001.LaTex</id><content type="html" xml:base="http://localhost:4000/latex/2019/05/07/0001.LaTex.html">&lt;p&gt;琴生不等式 ：对于凸函数[Convex Function,凹曲线] $f(x)$,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;若 \sum_{i=1}^{n} P_{i}=1 ,则有 \sum_{i=1}^{n} p_{i}f(x_i) \geqslant f(\sum_{i=1}^{n}p_{i}x_{i}) ①&lt;/script&gt;
+
+&lt;p&gt;凸函数 [Convex Function,凹曲线] 的性质 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{1}f(x_1)+p_{2}f(x_{2}) \geqslant f(p_{1}x_{1}+p_{2}x_{2}) , 其中 p_{1}+p_{2}=1&lt;/script&gt;
+
+&lt;p&gt;数学归纳法证明 ：&lt;/p&gt;
+
+&lt;p&gt;(Ⅰ).$ n=1,2$ 时,显然 $①$ 式成立。&lt;/p&gt;
+
+&lt;p&gt;(Ⅱ). 假设 $n=k$ 时,$①$ 式成立，即 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sum_{i=1}^{k}p_{i}f(x_{i}) \geqslant f(\sum_{i=1}^{k} p_{i}x_{i}) , 其中 \sum_{i=1}^{k}p_{i}=1&lt;/script&gt;
+
+&lt;p&gt;则,当 $n=k+1$ 时 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+
+设 Z_{k}&amp;=\sum_{i=1}^{k+1}p_{i}-p_{k+1}=\sum_{i=1}^{k} p_{i}\\
+
+\sum_{i=1}^{k+1} p_{i}f(x_{i})&amp;=p_{k+1}f(x_{k+1})+\sum_{i=1}^{k}p_{i}f(x_{i})\\
+
+&amp;=p_{k+1}f(x_{k+1})+Z_{k} \sum_{i=1}^{k} \frac{p_{i}}{Z_{k}}f(x_{i})\\
+
+&amp;\geqslant p_{k+1}f(x_{k+1})+Z_{k}f(\sum_{i=1}^{k}\frac{p_{i}}{Z_{k}}x_{i})\\
+
+&amp;\geqslant f(p_{k+1}x_{k+1}+Z_{k}\sum_{i=1}^{k} \frac{p_{i}}{Z_{k}}x_{i})\\
+
+&amp;=f(p_{k+1}x_{k+1}+\sum_{i=1}^{k} p_{i}x_{i})\\
+
+&amp;=f(\sum_{i=1}^{k+1}p_{i}x_{i})\\
+
+&amp;即 ：\\
+
+\sum_{i=1}^{k+1} p_{i}f(x_i) &amp; \geqslant f(\sum_{i=1}^{k+1}p_{i}x_{i}) ,其中 \sum_{i=1}^{k+1}p_{i}=1\\
+
+&amp;故 n=k+1 时, ① 式成立。\\
+
+\end{align*} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;(Ⅲ). 综合 (Ⅰ) , (Ⅱ) 可知 ① 式成立。&lt;/p&gt;</content><author><name></name></author><summary type="html">琴生不等式 ：对于凸函数[Convex Function,凹曲线] $f(x)$,</summary></entry><entry><title type="html">琴生不等式</title><link href="http://localhost:4000/latex/2019/05/07/0002.LaTex.html" rel="alternate" type="text/html" title="琴生不等式" /><published>2019-05-07T00:00:00+08:00</published><updated>2019-05-07T00:00:00+08:00</updated><id>http://localhost:4000/latex/2019/05/07/0002.LaTex</id><content type="html" xml:base="http://localhost:4000/latex/2019/05/07/0002.LaTex.html">&lt;p&gt;琴生不等式 ：对于凸函数[Convex Function,凹曲线] $f(x)$,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;若 \sum_{i=1}^{n} P_{i}=1 ,则有 \sum_{i=1}^{n} p_{i}f(x_i) \geqslant f(\sum_{i=1}^{n}p_{i}x_{i}) ①&lt;/script&gt;
+
+&lt;p&gt;凸函数 [Convex Function,凹曲线] 的性质 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{1}f(x_1)+p_{2}f(x_{2}) \geqslant f(p_{1}x_{1}+p_{2}x_{2}) , 其中 p_{1}+p_{2}=1&lt;/script&gt;
+
+&lt;p&gt;数学归纳法证明 ：&lt;/p&gt;
+
+&lt;p&gt;(Ⅰ).$ n=1,2$ 时,显然 $①$ 式成立。&lt;/p&gt;
+
+&lt;p&gt;(Ⅱ). 假设 $n=k$ 时,$①$ 式成立，即 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sum_{i=1}^{k}p_{i}f(x_{i}) \geqslant f(\sum_{i=1}^{k} p_{i}x_{i}) , 其中 \sum_{i=1}^{k}p_{i}=1&lt;/script&gt;
+
+&lt;p&gt;则,当 $n=k+1$ 时 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+
+设 Z_{k}&amp;=\sum_{i=1}^{k+1}p_{i}-p_{k+1}=\sum_{i=1}^{k} p_{i}\\
+
+\sum_{i=1}^{k+1} p_{i}f(x_{i})&amp;=p_{k+1}f(x_{k+1})+\sum_{i=1}^{k}p_{i}f(x_{i})\\
+
+&amp;=p_{k+1}f(x_{k+1})+Z_{k} \sum_{i=1}^{k} \frac{p_{i}}{Z_{k}}f(x_{i})\\
+
+&amp;\geqslant p_{k+1}f(x_{k+1})+Z_{k}f(\sum_{i=1}^{k}\frac{p_{i}}{Z_{k}}x_{i})\\
+
+&amp;\geqslant f(p_{k+1}x_{k+1}+Z_{k}\sum_{i=1}^{k} \frac{p_{i}}{Z_{k}}x_{i})\\
+
+&amp;=f(p_{k+1}x_{k+1}+\sum_{i=1}^{k} p_{i}x_{i})\\
+
+&amp;=f(\sum_{i=1}^{k+1}p_{i}x_{i})\\
+
+&amp;即 ：\\
+
+\sum_{i=1}^{k+1} p_{i}f(x_i) &amp; \geqslant f(\sum_{i=1}^{k+1}p_{i}x_{i}) ,其中 \sum_{i=1}^{k+1}p_{i}=1\\
+
+&amp;故 n=k+1 时, ① 式成立。\\
+
+\end{align*} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;(Ⅲ). 综合 (Ⅰ) , (Ⅱ) 可知 ① 式成立。&lt;/p&gt;</content><author><name></name></author><summary type="html">琴生不等式 ：对于凸函数[Convex Function,凹曲线] $f(x)$,</summary></entry><entry><title type="html">琴生不等式</title><link href="http://localhost:4000/latex/2019/05/07/0003.LaTex.html" rel="alternate" type="text/html" title="琴生不等式" /><published>2019-05-07T00:00:00+08:00</published><updated>2019-05-07T00:00:00+08:00</updated><id>http://localhost:4000/latex/2019/05/07/0003.LaTex</id><content type="html" xml:base="http://localhost:4000/latex/2019/05/07/0003.LaTex.html">&lt;p&gt;琴生不等式 ：对于凸函数[Convex Function,凹曲线] $f(x)$,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;若 \sum_{i=1}^{n} P_{i}=1 ,则有 \sum_{i=1}^{n} p_{i}f(x_i) \geqslant f(\sum_{i=1}^{n}p_{i}x_{i}) ①&lt;/script&gt;
+
+&lt;p&gt;凸函数 [Convex Function,凹曲线] 的性质 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{1}f(x_1)+p_{2}f(x_{2}) \geqslant f(p_{1}x_{1}+p_{2}x_{2}) , 其中 p_{1}+p_{2}=1&lt;/script&gt;
+
+&lt;p&gt;数学归纳法证明 ：&lt;/p&gt;
+
+&lt;p&gt;(Ⅰ).$ n=1,2$ 时,显然 $①$ 式成立。&lt;/p&gt;
+
+&lt;p&gt;(Ⅱ). 假设 $n=k$ 时,$①$ 式成立，即 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sum_{i=1}^{k}p_{i}f(x_{i}) \geqslant f(\sum_{i=1}^{k} p_{i}x_{i}) , 其中 \sum_{i=1}^{k}p_{i}=1&lt;/script&gt;
+
+&lt;p&gt;则,当 $n=k+1$ 时 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+
+设 Z_{k}&amp;=\sum_{i=1}^{k+1}p_{i}-p_{k+1}=\sum_{i=1}^{k} p_{i}\\
+
+\sum_{i=1}^{k+1} p_{i}f(x_{i})&amp;=p_{k+1}f(x_{k+1})+\sum_{i=1}^{k}p_{i}f(x_{i})\\
+
+&amp;=p_{k+1}f(x_{k+1})+Z_{k} \sum_{i=1}^{k} \frac{p_{i}}{Z_{k}}f(x_{i})\\
+
+&amp;\geqslant p_{k+1}f(x_{k+1})+Z_{k}f(\sum_{i=1}^{k}\frac{p_{i}}{Z_{k}}x_{i})\\
+
+&amp;\geqslant f(p_{k+1}x_{k+1}+Z_{k}\sum_{i=1}^{k} \frac{p_{i}}{Z_{k}}x_{i})\\
+
+&amp;=f(p_{k+1}x_{k+1}+\sum_{i=1}^{k} p_{i}x_{i})\\
+
+&amp;=f(\sum_{i=1}^{k+1}p_{i}x_{i})\\
+
+&amp;即 ：\\
+
+\sum_{i=1}^{k+1} p_{i}f(x_i) &amp; \geqslant f(\sum_{i=1}^{k+1}p_{i}x_{i}) ,其中 \sum_{i=1}^{k+1}p_{i}=1\\
+
+&amp;故 n=k+1 时, ① 式成立。\\
+
+\end{align*} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;(Ⅲ). 综合 (Ⅰ) , (Ⅱ) 可知 ① 式成立。&lt;/p&gt;</content><author><name></name></author><summary type="html">琴生不等式 ：对于凸函数[Convex Function,凹曲线] $f(x)$,</summary></entry><entry><title type="html">琴生不等式</title><link href="http://localhost:4000/latex/2019/05/07/0004.LaTex.html" rel="alternate" type="text/html" title="琴生不等式" /><published>2019-05-07T00:00:00+08:00</published><updated>2019-05-07T00:00:00+08:00</updated><id>http://localhost:4000/latex/2019/05/07/0004.LaTex</id><content type="html" xml:base="http://localhost:4000/latex/2019/05/07/0004.LaTex.html">&lt;p&gt;琴生不等式 ：对于凸函数[Convex Function,凹曲线] $f(x)$,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;若 \sum_{i=1}^{n} P_{i}=1 ,则有 \sum_{i=1}^{n} p_{i}f(x_i) \geqslant f(\sum_{i=1}^{n}p_{i}x_{i}) ①&lt;/script&gt;
+
+&lt;p&gt;凸函数 [Convex Function,凹曲线] 的性质 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{1}f(x_1)+p_{2}f(x_{2}) \geqslant f(p_{1}x_{1}+p_{2}x_{2}) , 其中 p_{1}+p_{2}=1&lt;/script&gt;
+
+&lt;p&gt;数学归纳法证明 ：&lt;/p&gt;
+
+&lt;p&gt;(Ⅰ).$ n=1,2$ 时,显然 $①$ 式成立。&lt;/p&gt;
+
+&lt;p&gt;(Ⅱ). 假设 $n=k$ 时,$①$ 式成立，即 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sum_{i=1}^{k}p_{i}f(x_{i}) \geqslant f(\sum_{i=1}^{k} p_{i}x_{i}) , 其中 \sum_{i=1}^{k}p_{i}=1&lt;/script&gt;
+
+&lt;p&gt;则,当 $n=k+1$ 时 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+
+设 Z_{k}&amp;=\sum_{i=1}^{k+1}p_{i}-p_{k+1}=\sum_{i=1}^{k} p_{i}\\
+
+\sum_{i=1}^{k+1} p_{i}f(x_{i})&amp;=p_{k+1}f(x_{k+1})+\sum_{i=1}^{k}p_{i}f(x_{i})\\
+
+&amp;=p_{k+1}f(x_{k+1})+Z_{k} \sum_{i=1}^{k} \frac{p_{i}}{Z_{k}}f(x_{i})\\
+
+&amp;\geqslant p_{k+1}f(x_{k+1})+Z_{k}f(\sum_{i=1}^{k}\frac{p_{i}}{Z_{k}}x_{i})\\
+
+&amp;\geqslant f(p_{k+1}x_{k+1}+Z_{k}\sum_{i=1}^{k} \frac{p_{i}}{Z_{k}}x_{i})\\
+
+&amp;=f(p_{k+1}x_{k+1}+\sum_{i=1}^{k} p_{i}x_{i})\\
+
+&amp;=f(\sum_{i=1}^{k+1}p_{i}x_{i})\\
+
+&amp;即 ：\\
+
+\sum_{i=1}^{k+1} p_{i}f(x_i) &amp; \geqslant f(\sum_{i=1}^{k+1}p_{i}x_{i}) ,其中 \sum_{i=1}^{k+1}p_{i}=1\\
+
+&amp;故 n=k+1 时, ① 式成立。\\
+
+\end{align*} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;(Ⅲ). 综合 (Ⅰ) , (Ⅱ) 可知 ① 式成立。&lt;/p&gt;</content><author><name></name></author><summary type="html">琴生不等式 ：对于凸函数[Convex Function,凹曲线] $f(x)$,</summary></entry><entry><title type="html">琴生不等式</title><link href="http://localhost:4000/latex/2019/05/07/0005.LaTex.html" rel="alternate" type="text/html" title="琴生不等式" /><published>2019-05-07T00:00:00+08:00</published><updated>2019-05-07T00:00:00+08:00</updated><id>http://localhost:4000/latex/2019/05/07/0005.LaTex</id><content type="html" xml:base="http://localhost:4000/latex/2019/05/07/0005.LaTex.html">&lt;p&gt;琴生不等式 ：对于凸函数[Convex Function,凹曲线] $f(x)$,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;若 \sum_{i=1}^{n} P_{i}=1 ,则有 \sum_{i=1}^{n} p_{i}f(x_i) \geqslant f(\sum_{i=1}^{n}p_{i}x_{i}) ①&lt;/script&gt;
+
+&lt;p&gt;凸函数 [Convex Function,凹曲线] 的性质 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{1}f(x_1)+p_{2}f(x_{2}) \geqslant f(p_{1}x_{1}+p_{2}x_{2}) , 其中 p_{1}+p_{2}=1&lt;/script&gt;
+
+&lt;p&gt;数学归纳法证明 ：&lt;/p&gt;
+
+&lt;p&gt;(Ⅰ).$ n=1,2$ 时,显然 $①$ 式成立。&lt;/p&gt;
+
+&lt;p&gt;(Ⅱ). 假设 $n=k$ 时,$①$ 式成立，即 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sum_{i=1}^{k}p_{i}f(x_{i}) \geqslant f(\sum_{i=1}^{k} p_{i}x_{i}) , 其中 \sum_{i=1}^{k}p_{i}=1&lt;/script&gt;
+
+&lt;p&gt;则,当 $n=k+1$ 时 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+
+设 Z_{k}&amp;=\sum_{i=1}^{k+1}p_{i}-p_{k+1}=\sum_{i=1}^{k} p_{i}\\
+
+\sum_{i=1}^{k+1} p_{i}f(x_{i})&amp;=p_{k+1}f(x_{k+1})+\sum_{i=1}^{k}p_{i}f(x_{i})\\
+
+&amp;=p_{k+1}f(x_{k+1})+Z_{k} \sum_{i=1}^{k} \frac{p_{i}}{Z_{k}}f(x_{i})\\
+
+&amp;\geqslant p_{k+1}f(x_{k+1})+Z_{k}f(\sum_{i=1}^{k}\frac{p_{i}}{Z_{k}}x_{i})\\
+
+&amp;\geqslant f(p_{k+1}x_{k+1}+Z_{k}\sum_{i=1}^{k} \frac{p_{i}}{Z_{k}}x_{i})\\
+
+&amp;=f(p_{k+1}x_{k+1}+\sum_{i=1}^{k} p_{i}x_{i})\\
+
+&amp;=f(\sum_{i=1}^{k+1}p_{i}x_{i})\\
+
+&amp;即 ：\\
+
+\sum_{i=1}^{k+1} p_{i}f(x_i) &amp; \geqslant f(\sum_{i=1}^{k+1}p_{i}x_{i}) ,其中 \sum_{i=1}^{k+1}p_{i}=1\\
+
+&amp;故 n=k+1 时, ① 式成立。\\
+
+\end{align*} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;(Ⅲ). 综合 (Ⅰ) , (Ⅱ) 可知 ① 式成立。&lt;/p&gt;</content><author><name></name></author><summary type="html">琴生不等式 ：对于凸函数[Convex Function,凹曲线] $f(x)$,</summary></entry><entry><title type="html">琴生不等式</title><link href="http://localhost:4000/latex/2019/05/07/0006.LaTex.html" rel="alternate" type="text/html" title="琴生不等式" /><published>2019-05-07T00:00:00+08:00</published><updated>2019-05-07T00:00:00+08:00</updated><id>http://localhost:4000/latex/2019/05/07/0006.LaTex</id><content type="html" xml:base="http://localhost:4000/latex/2019/05/07/0006.LaTex.html">&lt;p&gt;琴生不等式 ：对于凸函数[Convex Function,凹曲线] $f(x)$,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;若 \sum_{i=1}^{n} P_{i}=1 ,则有 \sum_{i=1}^{n} p_{i}f(x_i) \geqslant f(\sum_{i=1}^{n}p_{i}x_{i}) ①&lt;/script&gt;
+
+&lt;p&gt;凸函数 [Convex Function,凹曲线] 的性质 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{1}f(x_1)+p_{2}f(x_{2}) \geqslant f(p_{1}x_{1}+p_{2}x_{2}) , 其中 p_{1}+p_{2}=1&lt;/script&gt;
+
+&lt;p&gt;数学归纳法证明 ：&lt;/p&gt;
+
+&lt;p&gt;(Ⅰ).$ n=1,2$ 时,显然 $①$ 式成立。&lt;/p&gt;
+
+&lt;p&gt;(Ⅱ). 假设 $n=k$ 时,$①$ 式成立，即 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sum_{i=1}^{k}p_{i}f(x_{i}) \geqslant f(\sum_{i=1}^{k} p_{i}x_{i}) , 其中 \sum_{i=1}^{k}p_{i}=1&lt;/script&gt;
+
+&lt;p&gt;则,当 $n=k+1$ 时 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+
+设 Z_{k}&amp;=\sum_{i=1}^{k+1}p_{i}-p_{k+1}=\sum_{i=1}^{k} p_{i}\\
+
+\sum_{i=1}^{k+1} p_{i}f(x_{i})&amp;=p_{k+1}f(x_{k+1})+\sum_{i=1}^{k}p_{i}f(x_{i})\\
+
+&amp;=p_{k+1}f(x_{k+1})+Z_{k} \sum_{i=1}^{k} \frac{p_{i}}{Z_{k}}f(x_{i})\\
+
+&amp;\geqslant p_{k+1}f(x_{k+1})+Z_{k}f(\sum_{i=1}^{k}\frac{p_{i}}{Z_{k}}x_{i})\\
+
+&amp;\geqslant f(p_{k+1}x_{k+1}+Z_{k}\sum_{i=1}^{k} \frac{p_{i}}{Z_{k}}x_{i})\\
+
+&amp;=f(p_{k+1}x_{k+1}+\sum_{i=1}^{k} p_{i}x_{i})\\
+
+&amp;=f(\sum_{i=1}^{k+1}p_{i}x_{i})\\
+
+&amp;即 ：\\
+
+\sum_{i=1}^{k+1} p_{i}f(x_i) &amp; \geqslant f(\sum_{i=1}^{k+1}p_{i}x_{i}) ,其中 \sum_{i=1}^{k+1}p_{i}=1\\
+
+&amp;故 n=k+1 时, ① 式成立。\\
+
+\end{align*} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;(Ⅲ). 综合 (Ⅰ) , (Ⅱ) 可知 ① 式成立。&lt;/p&gt;</content><author><name></name></author><summary type="html">琴生不等式 ：对于凸函数[Convex Function,凹曲线] $f(x)$,</summary></entry><entry><title type="html">琴生不等式</title><link href="http://localhost:4000/latex/2019/05/07/0007.LaTex.html" rel="alternate" type="text/html" title="琴生不等式" /><published>2019-05-07T00:00:00+08:00</published><updated>2019-05-07T00:00:00+08:00</updated><id>http://localhost:4000/latex/2019/05/07/0007.LaTex</id><content type="html" xml:base="http://localhost:4000/latex/2019/05/07/0007.LaTex.html">&lt;p&gt;琴生不等式 ：对于凸函数[Convex Function,凹曲线] $f(x)$,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;若 \sum_{i=1}^{n} P_{i}=1 ,则有 \sum_{i=1}^{n} p_{i}f(x_i) \geqslant f(\sum_{i=1}^{n}p_{i}x_{i}) ①&lt;/script&gt;
+
+&lt;p&gt;凸函数 [Convex Function,凹曲线] 的性质 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{1}f(x_1)+p_{2}f(x_{2}) \geqslant f(p_{1}x_{1}+p_{2}x_{2}) , 其中 p_{1}+p_{2}=1&lt;/script&gt;
+
+&lt;p&gt;数学归纳法证明 ：&lt;/p&gt;
+
+&lt;p&gt;(Ⅰ).$ n=1,2$ 时,显然 $①$ 式成立。&lt;/p&gt;
+
+&lt;p&gt;(Ⅱ). 假设 $n=k$ 时,$①$ 式成立，即 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sum_{i=1}^{k}p_{i}f(x_{i}) \geqslant f(\sum_{i=1}^{k} p_{i}x_{i}) , 其中 \sum_{i=1}^{k}p_{i}=1&lt;/script&gt;
+
+&lt;p&gt;则,当 $n=k+1$ 时 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+
+设 Z_{k}&amp;=\sum_{i=1}^{k+1}p_{i}-p_{k+1}=\sum_{i=1}^{k} p_{i}\\
+
+\sum_{i=1}^{k+1} p_{i}f(x_{i})&amp;=p_{k+1}f(x_{k+1})+\sum_{i=1}^{k}p_{i}f(x_{i})\\
+
+&amp;=p_{k+1}f(x_{k+1})+Z_{k} \sum_{i=1}^{k} \frac{p_{i}}{Z_{k}}f(x_{i})\\
+
+&amp;\geqslant p_{k+1}f(x_{k+1})+Z_{k}f(\sum_{i=1}^{k}\frac{p_{i}}{Z_{k}}x_{i})\\
+
+&amp;\geqslant f(p_{k+1}x_{k+1}+Z_{k}\sum_{i=1}^{k} \frac{p_{i}}{Z_{k}}x_{i})\\
+
+&amp;=f(p_{k+1}x_{k+1}+\sum_{i=1}^{k} p_{i}x_{i})\\
+
+&amp;=f(\sum_{i=1}^{k+1}p_{i}x_{i})\\
+
+&amp;即 ：\\
+
+\sum_{i=1}^{k+1} p_{i}f(x_i) &amp; \geqslant f(\sum_{i=1}^{k+1}p_{i}x_{i}) ,其中 \sum_{i=1}^{k+1}p_{i}=1\\
+
+&amp;故 n=k+1 时, ① 式成立。\\
+
+\end{align*} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;(Ⅲ). 综合 (Ⅰ) , (Ⅱ) 可知 ① 式成立。&lt;/p&gt;</content><author><name></name></author><summary type="html">琴生不等式 ：对于凸函数[Convex Function,凹曲线] $f(x)$,</summary></entry><entry><title type="html">琴生不等式</title><link href="http://localhost:4000/latex/2019/05/07/0008.LaTex.html" rel="alternate" type="text/html" title="琴生不等式" /><published>2019-05-07T00:00:00+08:00</published><updated>2019-05-07T00:00:00+08:00</updated><id>http://localhost:4000/latex/2019/05/07/0008.LaTex</id><content type="html" xml:base="http://localhost:4000/latex/2019/05/07/0008.LaTex.html">&lt;p&gt;琴生不等式 ：对于凸函数[Convex Function,凹曲线] $f(x)$,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;若 \sum_{i=1}^{n} P_{i}=1 ,则有 \sum_{i=1}^{n} p_{i}f(x_i) \geqslant f(\sum_{i=1}^{n}p_{i}x_{i}) ①&lt;/script&gt;
+
+&lt;p&gt;凸函数 [Convex Function,凹曲线] 的性质 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{1}f(x_1)+p_{2}f(x_{2}) \geqslant f(p_{1}x_{1}+p_{2}x_{2}) , 其中 p_{1}+p_{2}=1&lt;/script&gt;
+
+&lt;p&gt;数学归纳法证明 ：&lt;/p&gt;
+
+&lt;p&gt;(Ⅰ).$ n=1,2$ 时,显然 $①$ 式成立。&lt;/p&gt;
+
+&lt;p&gt;(Ⅱ). 假设 $n=k$ 时,$①$ 式成立，即 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sum_{i=1}^{k}p_{i}f(x_{i}) \geqslant f(\sum_{i=1}^{k} p_{i}x_{i}) , 其中 \sum_{i=1}^{k}p_{i}=1&lt;/script&gt;
+
+&lt;p&gt;则,当 $n=k+1$ 时 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+
+设 Z_{k}&amp;=\sum_{i=1}^{k+1}p_{i}-p_{k+1}=\sum_{i=1}^{k} p_{i}\\
+
+\sum_{i=1}^{k+1} p_{i}f(x_{i})&amp;=p_{k+1}f(x_{k+1})+\sum_{i=1}^{k}p_{i}f(x_{i})\\
+
+&amp;=p_{k+1}f(x_{k+1})+Z_{k} \sum_{i=1}^{k} \frac{p_{i}}{Z_{k}}f(x_{i})\\
+
+&amp;\geqslant p_{k+1}f(x_{k+1})+Z_{k}f(\sum_{i=1}^{k}\frac{p_{i}}{Z_{k}}x_{i})\\
+
+&amp;\geqslant f(p_{k+1}x_{k+1}+Z_{k}\sum_{i=1}^{k} \frac{p_{i}}{Z_{k}}x_{i})\\
+
+&amp;=f(p_{k+1}x_{k+1}+\sum_{i=1}^{k} p_{i}x_{i})\\
+
+&amp;=f(\sum_{i=1}^{k+1}p_{i}x_{i})\\
+
+&amp;即 ：\\
+
+\sum_{i=1}^{k+1} p_{i}f(x_i) &amp; \geqslant f(\sum_{i=1}^{k+1}p_{i}x_{i}) ,其中 \sum_{i=1}^{k+1}p_{i}=1\\
+
+&amp;故 n=k+1 时, ① 式成立。\\
+
+\end{align*} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;(Ⅲ). 综合 (Ⅰ) , (Ⅱ) 可知 ① 式成立。&lt;/p&gt;</content><author><name></name></author><summary type="html">琴生不等式 ：对于凸函数[Convex Function,凹曲线] $f(x)$,</summary></entry><entry><title type="html">琴生不等式</title><link href="http://localhost:4000/latex/2019/05/07/0009.LaTex.html" rel="alternate" type="text/html" title="琴生不等式" /><published>2019-05-07T00:00:00+08:00</published><updated>2019-05-07T00:00:00+08:00</updated><id>http://localhost:4000/latex/2019/05/07/0009.LaTex</id><content type="html" xml:base="http://localhost:4000/latex/2019/05/07/0009.LaTex.html">&lt;p&gt;琴生不等式 ：对于凸函数[Convex Function,凹曲线] $f(x)$,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;若 \sum_{i=1}^{n} P_{i}=1 ,则有 \sum_{i=1}^{n} p_{i}f(x_i) \geqslant f(\sum_{i=1}^{n}p_{i}x_{i}) ①&lt;/script&gt;
+
+&lt;p&gt;凸函数 [Convex Function,凹曲线] 的性质 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{1}f(x_1)+p_{2}f(x_{2}) \geqslant f(p_{1}x_{1}+p_{2}x_{2}) , 其中 p_{1}+p_{2}=1&lt;/script&gt;
+
+&lt;p&gt;数学归纳法证明 ：&lt;/p&gt;
+
+&lt;p&gt;(Ⅰ).$ n=1,2$ 时,显然 $①$ 式成立。&lt;/p&gt;
+
+&lt;p&gt;(Ⅱ). 假设 $n=k$ 时,$①$ 式成立，即 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sum_{i=1}^{k}p_{i}f(x_{i}) \geqslant f(\sum_{i=1}^{k} p_{i}x_{i}) , 其中 \sum_{i=1}^{k}p_{i}=1&lt;/script&gt;
+
+&lt;p&gt;则,当 $n=k+1$ 时 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+
+设 Z_{k}&amp;=\sum_{i=1}^{k+1}p_{i}-p_{k+1}=\sum_{i=1}^{k} p_{i}\\
+
+\sum_{i=1}^{k+1} p_{i}f(x_{i})&amp;=p_{k+1}f(x_{k+1})+\sum_{i=1}^{k}p_{i}f(x_{i})\\
+
+&amp;=p_{k+1}f(x_{k+1})+Z_{k} \sum_{i=1}^{k} \frac{p_{i}}{Z_{k}}f(x_{i})\\
+
+&amp;\geqslant p_{k+1}f(x_{k+1})+Z_{k}f(\sum_{i=1}^{k}\frac{p_{i}}{Z_{k}}x_{i})\\
+
+&amp;\geqslant f(p_{k+1}x_{k+1}+Z_{k}\sum_{i=1}^{k} \frac{p_{i}}{Z_{k}}x_{i})\\
+
+&amp;=f(p_{k+1}x_{k+1}+\sum_{i=1}^{k} p_{i}x_{i})\\
+
+&amp;=f(\sum_{i=1}^{k+1}p_{i}x_{i})\\
+
+&amp;即 ：\\
+
+\sum_{i=1}^{k+1} p_{i}f(x_i) &amp; \geqslant f(\sum_{i=1}^{k+1}p_{i}x_{i}) ,其中 \sum_{i=1}^{k+1}p_{i}=1\\
+
+&amp;故 n=k+1 时, ① 式成立。\\
+
+\end{align*} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;(Ⅲ). 综合 (Ⅰ) , (Ⅱ) 可知 ① 式成立。&lt;/p&gt;</content><author><name></name></author><summary type="html">琴生不等式 ：对于凸函数[Convex Function,凹曲线] $f(x)$,</summary></entry><entry><title type="html">琴生不等式</title><link href="http://localhost:4000/latex/2019/05/07/0010.LaTex.html" rel="alternate" type="text/html" title="琴生不等式" /><published>2019-05-07T00:00:00+08:00</published><updated>2019-05-07T00:00:00+08:00</updated><id>http://localhost:4000/latex/2019/05/07/0010.LaTex</id><content type="html" xml:base="http://localhost:4000/latex/2019/05/07/0010.LaTex.html">&lt;p&gt;琴生不等式 ：对于凸函数[Convex Function,凹曲线] $f(x)$,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;若 \sum_{i=1}^{n} P_{i}=1 ,则有 \sum_{i=1}^{n} p_{i}f(x_i) \geqslant f(\sum_{i=1}^{n}p_{i}x_{i}) ①&lt;/script&gt;
+
+&lt;p&gt;凸函数 [Convex Function,凹曲线] 的性质 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{1}f(x_1)+p_{2}f(x_{2}) \geqslant f(p_{1}x_{1}+p_{2}x_{2}) , 其中 p_{1}+p_{2}=1&lt;/script&gt;
+
+&lt;p&gt;数学归纳法证明 ：&lt;/p&gt;
+
+&lt;p&gt;(Ⅰ).$ n=1,2$ 时,显然 $①$ 式成立。&lt;/p&gt;
+
+&lt;p&gt;(Ⅱ). 假设 $n=k$ 时,$①$ 式成立，即 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sum_{i=1}^{k}p_{i}f(x_{i}) \geqslant f(\sum_{i=1}^{k} p_{i}x_{i}) , 其中 \sum_{i=1}^{k}p_{i}=1&lt;/script&gt;
+
+&lt;p&gt;则,当 $n=k+1$ 时 ：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+
+设 Z_{k}&amp;=\sum_{i=1}^{k+1}p_{i}-p_{k+1}=\sum_{i=1}^{k} p_{i}\\
+
+\sum_{i=1}^{k+1} p_{i}f(x_{i})&amp;=p_{k+1}f(x_{k+1})+\sum_{i=1}^{k}p_{i}f(x_{i})\\
+
+&amp;=p_{k+1}f(x_{k+1})+Z_{k} \sum_{i=1}^{k} \frac{p_{i}}{Z_{k}}f(x_{i})\\
+
+&amp;\geqslant p_{k+1}f(x_{k+1})+Z_{k}f(\sum_{i=1}^{k}\frac{p_{i}}{Z_{k}}x_{i})\\
+
+&amp;\geqslant f(p_{k+1}x_{k+1}+Z_{k}\sum_{i=1}^{k} \frac{p_{i}}{Z_{k}}x_{i})\\
+
+&amp;=f(p_{k+1}x_{k+1}+\sum_{i=1}^{k} p_{i}x_{i})\\
+
+&amp;=f(\sum_{i=1}^{k+1}p_{i}x_{i})\\
+
+&amp;即 ：\\
+
+\sum_{i=1}^{k+1} p_{i}f(x_i) &amp; \geqslant f(\sum_{i=1}^{k+1}p_{i}x_{i}) ,其中 \sum_{i=1}^{k+1}p_{i}=1\\
+
+&amp;故 n=k+1 时, ① 式成立。\\
+
+\end{align*} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;(Ⅲ). 综合 (Ⅰ) , (Ⅱ) 可知 ① 式成立。&lt;/p&gt;</content><author><name></name></author><summary type="html">琴生不等式 ：对于凸函数[Convex Function,凹曲线] $f(x)$,</summary></entry></feed>
